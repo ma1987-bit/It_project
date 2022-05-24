@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0.5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+
+  width: 100%;
+  background: rgba(33, 46, 211, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px 40px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 20px;
+}
+
+span {
+  text-align: center;
+}
+.icon {
+  padding-left: 3rem;
+}
+.icon :hover {
+  background-color: rgb(52, 33, 226);
+}
